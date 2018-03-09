@@ -29,7 +29,6 @@
     /* 4. */
     var rects = document.querySelectorAll(".rect");
 
-
     function rectClicked() {
         if (this.isRed) {
             // this.classList.remove("red-rect");
@@ -45,7 +44,6 @@
             this.isRed = true;
         }
     }
-
 
     function hasClass(element, className) {
         return element.className.indexOf(className) > -1;
@@ -68,7 +66,6 @@
             element.className = classes.join(" ");
         }
     }
-
 
     rects.forEach(rect => {
         // rect.className = "rect red-rect";
